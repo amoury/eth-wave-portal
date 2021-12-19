@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "hardhat",
-	"start:accounts": "hardhat accounts",
-	"compile": "hardhat compile",
-    "test": "hardhat test"
+    "start:accounts": "hardhat accounts",
+    "run": "hardhat run scripts/run.js",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "develop": "hardhat node"
   },
   "keywords": [],
   "author": "",
